@@ -30,7 +30,12 @@
   "browser_action": {
     "default_icon": "icons/bookmarklet.svg",
     "default_popup": "popup/action.html",
-    "browser_style": true
+    "browser_style": true,
+    "theme_icons": [{
+      "light": "icons/bookmarklet-light.svg",
+      "dark": "icons/bookmarklet.svg",
+      "size": 18
+    }]
   },
   
   "applications": {
